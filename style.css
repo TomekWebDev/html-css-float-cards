@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 .clearfix{
@@ -16,9 +20,12 @@ header{
     margin: auto;
 }
 
-h1{
+h1, .name{
     margin-bottom: 4%;
     margin-top: 3%;
+    font-family: "Fredoka One";
+    color: #e53270;
+    font-weight: bold;
 }
 
 main{
@@ -55,7 +62,7 @@ main{
 }
 
 .name{
-    font-weight: bold;
+    color: white;
 }
 
 .email{
