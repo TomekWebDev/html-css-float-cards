@@ -10,3 +10,17 @@
     clear: both;
 }
 
+header{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+h1{
+    margin-bottom: 4%;
+    margin-top: 3%;
+}
+
+main{
+    margin-top: 2%;
+}
