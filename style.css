@@ -29,3 +29,35 @@ main{
     width: 80%;
     margin: auto;
 }
+
+.cardContainer{
+    float: left;
+    width: calc(100% / 3);
+    padding: 2%;
+}
+
+.card{
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+.card img{
+    float: left;
+    width: 100px;
+    height: 100px;  
+}
+
+.info{
+    display: inline-block;
+    margin: 5%;
+    height: 100%;
+}
+
+.name{
+    font-weight: bold;
+}
+
+.email{
+    color: lightskyblue;
+}
