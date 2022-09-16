@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito&display=swap');
 
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.clearfix{
+.clearfix::after{
     content: "";
     display: table;
     clear: both;
@@ -19,6 +18,17 @@ header{
     margin: auto;
     font-family: "Nunito";
     font-size: smaller;
+    /* Questo codice non fa da libreria!
+    La best practice è quella di creare delle classi
+    che non vanno a intaccare grosse parti del codice
+    ma si possono applicare a piccole parti su progetti
+    diversi, esattamente come per la classe .clearfix
+    
+    Altri esempi di classi libreria:
+    .container80 70 60 ecc (%schermo)
+    .padding1 2 3 ecc (padding pronti all'uso)
+    tutto può fare libreria
+    */
 }
 
 h1, .name{
@@ -42,6 +52,7 @@ main{
     float: left;
     width: calc(100% / 3);
     padding: 2%;
+    box-shadow: 2px;
 }
 
 .card{
@@ -56,12 +67,15 @@ main{
     float: left;
     width: 100px;
     height: 100px;  
+    vertical-align: middle;
 }
 
 .info{
     display: inline-block;
     margin: 5%;
     height: 100%;
+    float: left;
+    vertical-align: middle;
 }
 
 .name{
